@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.raleway-regular {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.raleway-bond {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -27,6 +43,11 @@ nav {
     position: fixed; /* para que el nav no se mueva */
     width: 100%;
     z-index: 1000; /* para asegurar que el nav esté encima de otros elementos */
+}
+
+/*css para la letra de cards*/
+.card-body {
+    font-size: 14px;
 }
 
 /*altura definida para las cards*/
