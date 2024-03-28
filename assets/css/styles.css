@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+}
+
+
+/*efectos en carrusel para que no se vea tan grande la imagen
+.carousel-item img {
+    max-height: 500px;
+    width: auto; 
+    object-fit: cover; /* Recortar la imagen para que llene el contenedor 
+}*/
+
+/*css para la barra de navegación*/
+nav {
+    background-color: transparent; /* fondo transparente */
+    backdrop-filter: blur(10px); /* efecto blur */
+    position: fixed; /* para que el nav no se mueva */
+    width: 100%;
+    z-index: 1000; /* para asegurar que el nav esté encima de otros elementos */
+}
+
+/*altura definida para las cards*/
+.fixed-height {
+    height: 140px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
