@@ -45,6 +45,12 @@ nav {
     z-index: 1000; /* para asegurar que el nav esté encima de otros elementos */
 }
 
+/*css para cambiar a color "info" cuando se presionen elementos del menú*/
+.nav-item.active .nav-link {
+    background-color: #0dcaf0;
+    color: #fff;
+}
+
 /*css para que tooltip de sección presentación sea celeste*/
 .custom-tooltip {
     --bs-tooltip-bg: var(--bs-info);
