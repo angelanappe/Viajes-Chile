@@ -28,15 +28,7 @@ body {
     color: white;
 }
 
-
-/*efectos en carrusel para que no se vea tan grande la imagen
-.carousel-item img {
-    max-height: 500px;
-    width: auto; 
-    object-fit: cover; /* Recortar la imagen para que llene el contenedor 
-}*/
-
-/*css para la barra de navegación*/
+/*css para personalizar barra de navegación*/
 nav {
     background-color: transparent; /* fondo transparente */
     backdrop-filter: blur(10px); /* efecto blur */
@@ -45,7 +37,7 @@ nav {
     z-index: 1000; /* para asegurar que el nav esté encima de otros elementos */
 }
 
-/*css para cambiar a color "info" cuando se presionen elementos del menú*/
+/*css para cambiar a bg-info cuando se presionen nav-items*/
 .nav-item.active .nav-link {
     background-color: #0dcaf0;
     color: #fff;
@@ -66,6 +58,7 @@ nav {
     height: 140px;
 }
 
+/*css para personalizar letras y enlaces del footer*/
 footer a {
     color: white;
     text-decoration: none;
